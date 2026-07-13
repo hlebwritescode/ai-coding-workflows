@@ -50,7 +50,7 @@ The owner adds things step by step. When asked to bring in a new skill:
 
 | Skill | Type | Source | Notes |
 |-------|------|--------|-------|
-| `grilling` | model-invoked | [mattpocock/skills](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) | The interview engine. v1.1 text (confirmation gate + facts/decisions split). |
+| `grilling` | model-invoked | [mattpocock/skills](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) | The interview engine. v1.1 text (confirmation gate + facts/decisions split). Local addition: ask in plain text, never the input-options widget. |
 | `grill-me` | user-invoked | [mattpocock/skills](https://github.com/mattpocock/skills) | Thin `/grill-me` wrapper that runs a `grilling` session. |
 
 ## The workflow this fits into
