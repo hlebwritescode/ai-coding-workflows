@@ -52,6 +52,7 @@ The owner adds things step by step. When asked to bring in a new skill:
 |-------|------|--------|-------|
 | `grilling` | model-invoked | [mattpocock/skills](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) | The interview engine. v1.1 text (confirmation gate + facts/decisions split). Local addition: ask in plain text, never the input-options widget. |
 | `grill-me` | user-invoked | [mattpocock/skills](https://github.com/mattpocock/skills) | Thin `/grill-me` wrapper that runs a `grilling` session. |
+| `setup-hleb-skills` | user-invoked | [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/skills/engineering/setup-matt-pocock-skills) | One-time repo-setup bootstrap that scaffolds per-repo config (issue tracker, triage labels, domain docs) for the skills that need it. Imported ahead of those skills. Adaptations: GitLab option and its template removed; "engineering skills" → "hleb skills". Ships seed templates: `issue-tracker-github.md`, `issue-tracker-local.md`, `triage-labels.md`, `domain.md`. Section B (triage labels) stays dormant until `triage` is imported. |
 
 ## The workflow this fits into
 
