@@ -10,7 +10,7 @@
 ## Language
 
 **Order**:
-{A one or two sentence description of the term}
+{A one- or two-sentence description of the term.}
 _Avoid_: Purchase, transaction
 
 **Invoice**:
