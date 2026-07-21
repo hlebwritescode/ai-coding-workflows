@@ -5,7 +5,7 @@
 ```md
 # {Context Name}
 
-{One or two sentence description of what this context is and why it exists.}
+{One or two sentences describing what this context is and why it exists.}
 
 ## Language
 
